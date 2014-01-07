@@ -99,6 +99,8 @@ if( $instance) {
 
 <p><a href="http://www.mixtapemachine.com/donate" title="Donate to the maker of the Mixtape Machine">If you use and enjoy Mixtape Machine, please consider a donation</a></p>
 
+<p><a href="http://wordpress.org/support/view/plugin-reviews/mixtape-machine" title="Be brutal...">Review this plugin</a></p>
+
 <?php
 }
 

@@ -37,9 +37,7 @@ Nobody's asked me anything yet. Email me at dave@mixtapemachine.com...
 = 0.9 =
 * First release - the scrolling info screen is a bit buggy. Cross-browser support may not be perfect. There is currently only one 'skin' available.
 
- == Upgrade Notice ==
+== Upgrade Notice ==
 
 = 0.9 =
-
-
 This is the first version of the plugin to be released. It is likely to contain imperfections. Please send me your feedback.

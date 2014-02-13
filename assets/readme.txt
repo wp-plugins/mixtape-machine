@@ -37,6 +37,9 @@ Nobody's asked me anything yet. Email me at dave@mixtapemachine.com...
 = 0.9 =
 * First release - the scrolling info screen is a bit buggy. Cross-browser support may not be perfect. There is currently only one 'skin' available.
 
+= 0.9.1 =
+* I've added a harmless litlle string of random digits so that I can more easily track which sites are using the plugin. This will help me keep tabs on it and make improvements.
+
 == Upgrade Notice ==
 
 = 0.9 =

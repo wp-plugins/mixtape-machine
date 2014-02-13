@@ -6,7 +6,7 @@
  * Author: Dave Hall
  * Plugin URI: http://www.mixtapemachine.com
  * Author URI: http://www.icanmakeyouwebsite.com
- * Version: 0.9.0
+ * Version: 0.9.1
  * Text Domain: mixtape_machine
  * License: GPLv2
 **/
@@ -151,6 +151,7 @@ wp_enqueue_script( 'jquery' );
         <img class="preloaded" src="<?php echo plugins_url('skins/default/controls-stop.png', __FILE__ ); ?>">
         <img class="preloaded" src="<?php echo plugins_url('skins/default/controls-rw.png', __FILE__ ); ?>">
         <img class="preloaded" src="<?php echo plugins_url('skins/default/controls-ff.png', __FILE__ ); ?>">
+        <div style="display: none">xlkj445ddkdjhhgppp00R</div>
 	</div>
 
 

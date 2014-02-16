@@ -6,7 +6,7 @@
  * Author: Dave Hall
  * Plugin URI: http://www.mixtapemachine.com
  * Author URI: http://www.icanmakeyouwebsite.com
- * Version: 0.9.1
+ * Version: 0.9.2
  * Text Domain: mixtape_machine
  * License: GPLv2
 **/

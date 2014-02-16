@@ -40,6 +40,9 @@ Nobody's asked me anything yet. Email me at dave@mixtapemachine.com...
 = 0.9.1 =
 * I've added a harmless litlle string of random digits so that I can more easily track which sites are using the plugin. This will help me keep tabs on it and make improvements.
 
+= 0.9.2 =
+* A bug fix to work in jQuery no-conflict mode
+
 == Upgrade Notice ==
 
 = 0.9 =

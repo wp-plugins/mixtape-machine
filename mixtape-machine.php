@@ -162,6 +162,8 @@ wp_enqueue_script( 'jquery' );
 
 <script type="text/javascript">
 
+var $ = jQuery;
+
 function hideTL () {
   var vvvv = setTimeout( function() {
       $('.tracklist').css({'position':'fixed', 'margin-top':'0'});

@@ -6,7 +6,7 @@
  * Author: Dave Hall
  * Plugin URI: http://www.mixtapemachine.com
  * Author URI: http://www.icanmakeyouwebsite.com
- * Version: 0.9.2
+ * Version: 0.9.3
  * Text Domain: mixtape_machine
  * License: GPLv2
 **/
@@ -170,10 +170,12 @@ function hideTL () {
   }, 600);
 }
 
+var scrollTitle;
+
 function setAnimation () {
 
               $('.player').addClass('playing');
-              clearInterval( $('.player').attr('ST') );
+              clearInterval( scrollTitle );
               var speed = 100;
               $('.track-info a').stop().css('margin-left', '0');
                   var t = setTimeout( function() {
@@ -185,7 +187,7 @@ function setAnimation () {
                         var Ttime = titleLength * 1000 / speed;
                         var Btime = boxWidth * 1000 / speed;
                         $('.track-info a').stop().delay( Btime ).animate({'margin-left': 0 - 20 - titleLength}, Ttime, 'linear');
-                        var scrollTitle = setInterval( function() {
+                        scrollTitle = setInterval( function() {
                           $('.track-info a').stop().css('margin-left', boxWidth).animate({'margin-left': 0 - 20 - titleLength}, time, 'linear');
                         }, time + 100 );
                         $('.player').attr('ST', scrollTitle);

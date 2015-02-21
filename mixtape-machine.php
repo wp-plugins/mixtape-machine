@@ -201,7 +201,7 @@ $(document).ready( function() {
       $('.panel').attr('src', '<?php echo plugins_url('skins/default/controls-stop.png', __FILE__ ); ?>');
       s = setTimeout ( function () { $('.panel').attr('src', '<?php echo plugins_url('skins/default/controls.png', __FILE__ ); ?>');}, 200);
       $('.track-info a').stop().animate({'margin-left': 0}, 400);
-      clearInterval( $('.player').attr('ST') );
+      clearInterval( scrollTitle );
     });
     $('.play').click(
       function() { $('.panel').attr('src', '<?php echo plugins_url('skins/default/controls-play.png', __FILE__ ); ?>');
